@@ -1,0 +1,472 @@
+Unity Editor version:    2022.3.0f1 (fb119bb0b476)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.4 (Build 22F66)
+Darwin version:          22.5.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Volumes/1TB SSD/Current Unity Projects/RDWT/RDWT
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50783
+Successfully changed project path to: /Volumes/1TB SSD/Current Unity Projects/RDWT/RDWT
+/Volumes/1TB SSD/Current Unity Projects/RDWT/RDWT
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704634009152] Host "[IP] 192.168.178.113 [Port] 0 [Flags] 2 [Guid] 812760233 [EditorId] 812760233 [Version] 1048832 [Id] OSXEditor(0,MacMini.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704634009152] Host "[IP] 192.168.178.113 [Port] 0 [Flags] 2 [Guid] 812760233 [EditorId] 812760233 [Version] 1048832 [Id] OSXEditor(0,MacMini.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Volumes/1TB SSD/Current Unity Projects/RDWT/RDWT/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+LU28R55 preferred device: AMD Radeon RX Vega 56 (high power, removable)
+Metal devices available: 2
+0: AMD Radeon RX Vega 56 (high power, removable)
+1: Intel(R) UHD Graphics 630 (low power)
+Forcing user selected device: AMD Radeon RX Vega 56 (high power, removable)
+Initializing Metal device caps: AMD Radeon RX Vega 56
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.0f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002009 seconds.
+- Loaded All Assemblies, in  0.434 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 123 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.574 seconds
+Domain Reload Profiling: 1007ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (196ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (176ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (574ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (493ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (287ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.448 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.510 seconds
+Domain Reload Profiling: 959ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (70ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (181ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (511ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (277ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (172ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (42.7 KB). Loaded Objects now: 504.
+Memory consumption went from 51.6 MB to 51.6 MB.
+Total: 2.674227 ms (FindLiveObjects: 0.034438 ms CreateObjectMapping: 0.003627 ms MarkObjects: 2.564090 ms  DeleteObjects: 0.070968 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3373.543478 seconds.
+  path: Assets/RDW Toolkit/Scripts
+  artifactKey: Guid(c722317315ff0a348b4dac2f6077ee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RDW Toolkit/Scripts using Guid(c722317315ff0a348b4dac2f6077ee49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff27066986c5303a8942bf341517d6e') in 0.002066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/RDW Toolkit/Scripts/Redirection
+  artifactKey: Guid(fb6e5f7ed4a40844d995a50bb4bc93e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RDW Toolkit/Scripts/Redirection using Guid(fb6e5f7ed4a40844d995a50bb4bc93e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5092fcf0b91fc6e364bd9a732bcbe282') in 0.000360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.579 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.438 seconds
+Domain Reload Profiling: 1017ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (313ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (217ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (439ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (244ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (23.2 KB). Loaded Objects now: 543.
+Memory consumption went from 54.5 MB to 54.5 MB.
+Total: 2.444256 ms (FindLiveObjects: 0.039304 ms CreateObjectMapping: 0.004485 ms MarkObjects: 2.383216 ms  DeleteObjects: 0.016672 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48.422490 seconds.
+  path: Assets/RDW Toolkit/Fonts/Myriad Pro Regular.ttf
+  artifactKey: Guid(3dbc7428f67aaea4fa1ef5a12a438f8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Fonts/Myriad Pro Regular.ttf using Guid(3dbc7428f67aaea4fa1ef5a12a438f8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef3a6e12eb773324bde5fb6dbfb8c78f') in 0.236745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/RDW Toolkit/Scripts/Simulation/SimulationManager.cs
+  artifactKey: Guid(b4936f2eec754174cb7e557e06c62c25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Scripts/Simulation/SimulationManager.cs using Guid(b4936f2eec754174cb7e557e06c62c25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da560282bb026d19df216d32517a439b') in 0.004245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/RDW Toolkit/Scripts/Simulation/VirtualPathGenerator.cs
+  artifactKey: Guid(32b3eb34b73b8ac46a7c6a9dbc997e8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Scripts/Simulation/VirtualPathGenerator.cs using Guid(32b3eb34b73b8ac46a7c6a9dbc997e8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '440d81b7f2e6c212efdf6923847f44be') in 0.004448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/RDW Toolkit/Materials/body_representation.mat
+  artifactKey: Guid(652d4ed6294828e4cb0edfcf65e2751d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Materials/body_representation.mat using Guid(652d4ed6294828e4cb0edfcf65e2751d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41d1e02989473c14a2fbc42efbad2cda') in 0.042393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/RDW Toolkit/Prefabs/Testing/RDWT Test World.prefab
+  artifactKey: Guid(5edd4813c2b91c744b86f9b5db962f68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Prefabs/Testing/RDWT Test World.prefab using Guid(5edd4813c2b91c744b86f9b5db962f68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1cce8e46b9c70937673180dadf9ebbfe') in 0.024089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/RDW Toolkit/Scripts/Misc/ResetTrigger.cs
+  artifactKey: Guid(03029153ce824e946a8fc821e9ac12a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Scripts/Misc/ResetTrigger.cs using Guid(03029153ce824e946a8fc821e9ac12a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '146250ebb76230bab7870b4f9936f221') in 0.004602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/RDW Toolkit/Scripts/Misc/HeadFollower.cs
+  artifactKey: Guid(d476ed8d74f028b409024a5b45014679) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Scripts/Misc/HeadFollower.cs using Guid(d476ed8d74f028b409024a5b45014679) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e489e6a66a0590ebb4b938b2f054d669') in 0.003918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/RDW Toolkit/Materials/tracked_space.mat
+  artifactKey: Guid(aa939d28fa98db7449915dc7becba95d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Materials/tracked_space.mat using Guid(aa939d28fa98db7449915dc7becba95d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc72d2a2d3457a2747a959c55385129d') in 0.005695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/RDW Toolkit/Scripts/Redirection/Redirectors/ZigZagRedirector.cs
+  artifactKey: Guid(dcedfc4c930aa4a4ca77b5a9e5f82b94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Scripts/Redirection/Redirectors/ZigZagRedirector.cs using Guid(dcedfc4c930aa4a4ca77b5a9e5f82b94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b9210e00c1783eb81a2fb126c349be97') in 0.005249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/RDW Toolkit/Scripts/Redirection/Reseters/TwoOneTurnResetter.cs
+  artifactKey: Guid(06732bce9ea3dcd419d50604456b9bbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Scripts/Redirection/Reseters/TwoOneTurnResetter.cs using Guid(06732bce9ea3dcd419d50604456b9bbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '68516c9bb4b9c5e8f3c6d79d5182021a') in 0.003713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/RDW Toolkit/Scripts/Simulation/Motion Simulators/SimulatedWalker.cs
+  artifactKey: Guid(6032d3c692e273d40a2c3f03b60f2ee8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Scripts/Simulation/Motion Simulators/SimulatedWalker.cs using Guid(6032d3c692e273d40a2c3f03b60f2ee8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e73f2affeccecc8b6350b775a9be7ce6') in 0.003659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/RDW Toolkit/Scripts/Redirection/RedirectionManager.cs
+  artifactKey: Guid(306dea4159f34664e80b61f46bbd9c21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Scripts/Redirection/RedirectionManager.cs using Guid(306dea4159f34664e80b61f46bbd9c21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6768acd1054d70ec4714b6e39d35f07c') in 0.003476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/RDW Toolkit/Scripts/Misc/PoseFixer.cs
+  artifactKey: Guid(704d4d2311c084b4485122155182bdc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Scripts/Misc/PoseFixer.cs using Guid(704d4d2311c084b4485122155182bdc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e9bc9036b5f33ecc9fa155574a87c429') in 0.003484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/RDW Toolkit/Scripts/Misc/SnapshotGenerator.cs
+  artifactKey: Guid(d1d8fcdb37f9bf145a7d76a20031d728) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Scripts/Misc/SnapshotGenerator.cs using Guid(d1d8fcdb37f9bf145a7d76a20031d728) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7c7657a95ec29d89795ec01b3725fece') in 0.005794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/RDW Toolkit/Resources/Simulation Waypoint.prefab
+  artifactKey: Guid(8c43ac199b39d5e44907ba0a3c5e259d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Resources/Simulation Waypoint.prefab using Guid(8c43ac199b39d5e44907ba0a3c5e259d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '067745a5c375274c715c72ca6c620e43') in 0.009635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/RDW Toolkit/Scripts/Analysis/StatisticsLogger.cs
+  artifactKey: Guid(82b887b769386134199dcfbe5b9b32a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Scripts/Analysis/StatisticsLogger.cs using Guid(82b887b769386134199dcfbe5b9b32a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '84f0f41404ceba6432a8015ba49ec4f0') in 0.003768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/RDW Toolkit/Scripts/Analysis/TrailDrawer.cs
+  artifactKey: Guid(6c25ac190f308ba40970007a6166c059) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Scripts/Analysis/TrailDrawer.cs using Guid(6c25ac190f308ba40970007a6166c059) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a0a256e077dbc4f81017930798b3401') in 0.004439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/RDW Toolkit/Scripts/Redirection/Redirectors/NullRedirector.cs
+  artifactKey: Guid(4784688d9d6861343a2a9c50af806006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Scripts/Redirection/Redirectors/NullRedirector.cs using Guid(4784688d9d6861343a2a9c50af806006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '686934cc9e6426b0c83ec9a98377d589') in 0.003829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/RDW Toolkit/Scripts/Redirection/Reseters/NullResetter.cs
+  artifactKey: Guid(306c796b03b3afb409cb60c648939131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Scripts/Redirection/Reseters/NullResetter.cs using Guid(306c796b03b3afb409cb60c648939131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '844b8a38d4aadebb4aa9517f5dd4703c') in 0.006017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/RDW Toolkit/Resources/TwoOneTurnResetter HUD.prefab
+  artifactKey: Guid(f7d43dfd51e71684894cd6fae55365e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Resources/TwoOneTurnResetter HUD.prefab using Guid(f7d43dfd51e71684894cd6fae55365e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '586ebf2abfb72f10707c5ed963239943') in 0.025055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/RDW Toolkit/Materials/body_orientation.mat
+  artifactKey: Guid(27ce37884dfcb29458aac9a84721b0f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Materials/body_orientation.mat using Guid(27ce37884dfcb29458aac9a84721b0f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb39c3dc6421fd1adcc486c90e1a6e3b') in 0.008430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/RDW Toolkit/Scripts/Misc/Utilities.cs
+  artifactKey: Guid(ba1ab1e85a2f81541b111d08446b482f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Scripts/Misc/Utilities.cs using Guid(ba1ab1e85a2f81541b111d08446b482f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '260225610df19588028d66109eb78e94') in 0.003756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/RDW Toolkit/Materials/waypoint.mat
+  artifactKey: Guid(7387bbff8f9729044a7bd8a68723aea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RDW Toolkit/Materials/waypoint.mat using Guid(7387bbff8f9729044a7bd8a68723aea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '176f5c1239a4b4d9039240f53565fb09') in 0.005757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 546.
+Memory consumption went from 55.2 MB to 55.2 MB.
+Total: 3.191223 ms (FindLiveObjects: 0.040975 ms CreateObjectMapping: 0.006523 ms MarkObjects: 3.125638 ms  DeleteObjects: 0.017146 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

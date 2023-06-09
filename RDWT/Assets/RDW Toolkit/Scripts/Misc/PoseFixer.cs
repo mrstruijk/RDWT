@@ -1,31 +1,37 @@
 ﻿using UnityEngine;
-using System.Collections;
-
-public class PoseFixer : MonoBehaviour {
-
-    Vector3 fixedPosition;
-    Quaternion fixedRotation;
-
-    [SerializeField]
-    bool fixPosition = true, fixRotation = true;
 
 
-    void OnEnable()
+public class PoseFixer : MonoBehaviour
+{
+    [SerializeField] private bool fixPosition = true, fixRotation = true;
+    private Vector3 _fixedPosition;
+    private Quaternion _fixedRotation;
+
+
+    private void OnEnable()
     {
-        fixedPosition = this.transform.position;
-        fixedRotation = this.transform.rotation;
+        _fixedPosition = transform.position;
+        _fixedRotation = transform.rotation;
     }
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Use this for initialization
+    private void Start()
+    {
+    }
+
+
+    // Update is called once per frame
+    private void Update()
+    {
         if (fixPosition)
-            this.transform.position = fixedPosition;
+        {
+            transform.position = _fixedPosition;
+        }
+
         if (fixRotation)
-            this.transform.rotation = fixedRotation;
-	}
+        {
+            transform.rotation = _fixedRotation;
+        }
+    }
 }

@@ -1,46 +1,48 @@
-﻿using UnityEngine;
-using System.Collections;
-using Redirection;
-
-public class S2CRedirector : SteerToRedirector {
+﻿using Redirection;
+using UnityEngine;
 
 
+public class S2CRedirector : SteerToRedirector
+{
     // Testing Parameters
-    bool dontUseTempTargetInS2C = false;
-    
+    private readonly bool _dontUseTempTargetInS2C = false;
 
-    private const float S2C_BEARING_ANGLE_THRESHOLD_IN_DEGREE = 160;
-    private const float S2C_TEMP_TARGET_DISTANCE = 4;
+
+    private const float S2CBearingAngleThresholdInDegree = 160;
+    private const float S2CTempTargetDistance = 4;
+
 
     public override void PickRedirectionTarget()
     {
-        Vector3 trackingAreaPosition = Utilities.FlattenedPos3D(redirectionManager.trackedSpace.position);
-        Vector3 userToCenter = trackingAreaPosition - redirectionManager.currPos;
+        var trackingAreaPosition = Utilities.FlattenedPos3D(RedirectionManager.trackedSpace.position);
+        var userToCenter = trackingAreaPosition - RedirectionManager.currPos;
 
         //Compute steering target for S2C
-        float bearingToCenter = Vector3.Angle(userToCenter, redirectionManager.currDir);
-        float directionToCenter = Utilities.GetSignedAngle(redirectionManager.currDir, userToCenter);
-        if (bearingToCenter >= S2C_BEARING_ANGLE_THRESHOLD_IN_DEGREE && !dontUseTempTargetInS2C)
+        var bearingToCenter = Vector3.Angle(userToCenter, RedirectionManager.currDir);
+        var directionToCenter = Utilities.GetSignedAngle(RedirectionManager.currDir, userToCenter);
+
+        if (bearingToCenter >= S2CBearingAngleThresholdInDegree && !_dontUseTempTargetInS2C)
         {
             //Generate temporary target
-            if (noTmpTarget)
+            if (NoTmpTarget)
             {
-                tmpTarget = new GameObject("S2C Temp Target");
-                tmpTarget.transform.position = redirectionManager.currPos + S2C_TEMP_TARGET_DISTANCE * (Quaternion.Euler(0, directionToCenter * 90, 0) * redirectionManager.currDir);
-                tmpTarget.transform.parent = transform;
-                noTmpTarget = false;
+                TMPTarget = new GameObject("S2C Temp Target");
+                TMPTarget.transform.position = RedirectionManager.currPos + S2CTempTargetDistance * (Quaternion.Euler(0, directionToCenter * 90, 0) * RedirectionManager.currDir);
+                TMPTarget.transform.parent = transform;
+                NoTmpTarget = false;
             }
-            currentTarget = tmpTarget.transform;
+
+            CurrentTarget = TMPTarget.transform;
         }
         else
         {
-            currentTarget = redirectionManager.trackedSpace;
-            if (!noTmpTarget)
+            CurrentTarget = RedirectionManager.trackedSpace;
+
+            if (!NoTmpTarget)
             {
-                GameObject.Destroy(tmpTarget);
-                noTmpTarget = true;
+                Destroy(TMPTarget);
+                NoTmpTarget = true;
             }
         }
     }
-
 }
