@@ -355,22 +355,22 @@ public class RedirectionManager : MonoBehaviour {
 
     void GetBody()
     {
-        body = transform.FindChild("Body");
+        body = transform.Find("Body");
     }
 
     void GetTrackedSpace()
     {
-        trackedSpace = transform.FindChild("Tracked Space");
+        trackedSpace = transform.Find("Tracked Space");
     }
 
     void GetSimulatedHead()
     {
-        simulatedHead = transform.FindChild("Simulated User").FindChild("Head");
+        simulatedHead = transform.Find("Simulated User").Find("Head");
     }
 
     void GetTargetWaypoint()
     {
-        targetWaypoint = transform.FindChild("Target Waypoint").gameObject.transform;
+        targetWaypoint = transform.Find("Target Waypoint").gameObject.transform;
     }
 
     void UpdateCurrentUserState()
